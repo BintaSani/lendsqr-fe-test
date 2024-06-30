@@ -1,0 +1,44 @@
+.pagination-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .pagination-link {
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #545F7D60;
+    transition: color 0.3s ease;
+  
+    &.active {
+      color: #545F7D; /* Active page color */
+      font-weight: bold;
+    }
+  
+    &:hover {
+      color: #545F7D; /* Hover color */
+    }
+  }
+  
+  .pagination-arrow {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #213F7D;
+    background-color: #f0f0f0; /* Arrow background color */
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #e0e0e0; /* Arrow hover background color */
+    }
+  
+    svg {
+      font-size: 0.875rem; /* Adjust icon size */
+    }
+  }
+  

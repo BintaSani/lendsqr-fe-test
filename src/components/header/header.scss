@@ -1,0 +1,88 @@
+.header{
+    height: 100px;
+    margin-bottom: 0;
+    background: #ffffff;
+    display: flex;
+    justify-items: center;
+    padding-left: 1.875rem;
+    padding-right: 3.75rem;
+    
+
+    .logo{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .search-container{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 2.5rem;
+        width: 25rem;
+        margin-left: 10.512rem;
+        input{
+            width: 83.75%;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            border: 2px solid #545F7D15;
+            margin-bottom: 1.5rem;
+            height: 100%;
+            padding-left: 1.25rem;
+        }
+        button{
+            color: white;
+            background-color: #39CDCC;
+            border: none;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            width: 16.25%;
+            
+            .search-icon{
+                font-size: large;
+                margin-top: 3px;
+                
+            }
+        }
+    }
+    .header-right{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        gap: 1.875rem;
+        .docs{
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color:  #213F7D;
+            line-height: 16px;
+            margin-right: 2.5rem;
+            text-decoration: underline;
+        }
+        .notification-icon{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        .avatar-container{
+            display: flex;
+            gap: 0.625rem;
+            .avatar{
+                size: 3rem;
+                border-radius: 50%;
+            }
+            .username{
+                font-family: "Work Sans", sans-serif;
+                color: #213F7D;
+                line-height: 16px;
+                font-weight: 500;
+            }
+            .down-icon{
+                margin-top: auto;
+                margin-bottom: auto;
+                color: #213F7D;
+            }
+        }
+    }
+}

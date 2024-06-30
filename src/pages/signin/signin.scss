@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../../../public/assets/AvenirNextCyr-Bold.woff2') format('woff2'),
+         url('../../../public/assets/AvenirNextCyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Avenir Next';
+    src: url('../../../public/assets/AvenirNextCyr-Regular.woff2') format('woff2'),
+         url('../../../public/assets/AvenirNextCyr-Regular.woff') format('woff');
+    font-weight: regular;
+    font-style: normal;
+  }
+  .signin-page {
+    display: flex;
+    justify-items: center;
+    height: 100vh;
+    overflow: hidden;
+  
+    .container{
+      background-color: #E5E5E510;
+      height: 100%;
+      width: 51.11%;
+      display: flex;
+      flex-direction: column;
+  
+      .App-logo{
+        z-index: 50;
+        width: 173.76px;
+        height: 36px;
+        margin-top: 6.625rem;
+        margin-left: 6.063rem;
+      }
+      .sign-in-image{
+        height: 337.57px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8.688rem;
+      }
+    }
+    .sign-in{
+      height: 100%;
+      width: 48.89%;
+      display: flex;
+      justify-items: center;
+      justify-content: center;
+  
+      .sign-in-form{
+        width: 65%;
+        height: 55%;
+        margin-top: auto;
+        margin-bottom: auto;
+        h1{
+          font-family: 'Avenir Next', sans-serif;
+          font-weight: bold;
+          color: #213F7D;
+          line-height: 40px;
+          margin-bottom: 0.65rem;
+        }
+        p{
+          font-family: 'Avenir Next', sans-serif;
+          font-weight: normal;
+          color: #545F7D;
+          line-height: 20px;
+          margin-bottom: 3.75rem;
+        }
+        input{
+          width: 96%;
+          border-radius: 5px;
+          border: 2px solid #545F7D15;
+          margin-bottom: 1.5rem;
+          height: 3.125rem;
+          display: flex;
+          justify-items: center;
+          padding-left: 1rem;
+          ::placeholder{
+            color: #545F7D;
+            font-family: 'Avenir Next', sans-serif;
+            font-weight: normal;
+            line-height: 14px;
+          }
+          :focus{
+            outline: none;
+          }
+        }
+        .password-input-container {
+          position: relative;
+          width: 100%;
+          display: flex;
+        
+          .password-input-field {
+            margin-bottom: 0px;/* Space for the button */
+          }
+        
+          .password-toggle-button {
+            position: absolute;
+            top: 35%;
+            // left: 0px;
+            // transform: translateY(-50%);
+            transform: translateX(40%);
+            // padding: 8px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            color: #39CDCC;
+            font-family: 'Avenir Next', sans-serif;
+            font-weight: bold;
+          }
+        }
+        .forgot-password{
+          margin-top: 1.5rem;
+          margin-bottom: 1.875rem;
+          font-family: 'Avenir Next', sans-serif;
+          font-weight: bold;
+          color: #39CDCC;
+          line-height: 14px;
+        }
+        button{
+          background-color: #39CDCC;
+          height: 3rem;
+          display: flex;
+          justify-items: center;
+          justify-content: center;
+          border-radius: 8px;
+          
+          border: none;
+          width: 100%;
+          p{
+            margin-top: auto;
+            margin-bottom: auto;
+            font-family: 'Avenir Next', sans-serif;
+            font-weight: bold;
+            line-height: 1px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  
+  /* .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+  
